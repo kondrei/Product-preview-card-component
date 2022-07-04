@@ -1,6 +1,3 @@
-* {
-    /* border: 1px solid red; */
-}
 body {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
@@ -18,7 +15,6 @@ body {
   .attribution {
     font-size: 11px;
     text-align: center;
-      margin-top:2rem;
   }
 
   .attribution a {
@@ -114,20 +110,20 @@ button:hover {
 
 /* desktop design */
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 750px) {
     .product {
         margin: 1rem;
         flex-direction: row;
         width: 600px;
-        height: 300px;
+        height: 432px;
         background-color: transparent;
         
     }
-.content {
-    border-radius: 0 10px 10px 0;
-    background-color: #fff;
-    height: 432px;
-}
+    .content {
+        border-radius: 0 10px 10px 0;
+        background-color: #fff;
+        height: 432px;
+    }
     img {
         width: 1200px;
         border-radius: 10px 0 0 10px;   
